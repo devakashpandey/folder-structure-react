@@ -18,7 +18,7 @@
 }
 
 .app-container {
-  width: 30%;
+  width: 35%;
 }
 
 .file-container {
@@ -58,4 +58,16 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .app-container {
+    width: 100%;
+  }
 }
