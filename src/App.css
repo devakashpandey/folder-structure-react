@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+}
+
+.main-container {
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+}
+
+.folder {
+  cursor: pointer;
+  background: #efefef;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-container {
+  width: 30%;
+}
+
+.file-container {
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.file {
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.map-container {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.button-container button {
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 0.8rem;
+}
+
+.inner-button-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
